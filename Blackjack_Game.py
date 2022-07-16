@@ -114,17 +114,17 @@ def compare_hands():
     global val_of_player_hand
     global val_of_comp_hand
     if val_of_player_hand == val_of_comp_hand:
-        print(f"We have a draw! The computer hand is {val_of_comp_hand}")
+        print(f"We have a draw! The computer\'s hand is {val_of_comp_hand}")
     elif val_of_player_hand> 21 and val_of_comp_hand >21:
-        print(f"You both lose, the computers hand is {val_of_comp_hand}")
+        print(f"You both lose, the computer\'s hand is {val_of_comp_hand}")
     elif val_of_player_hand> 21:
-        print(f"The player loses! The value of computer hand is {val_of_comp_hand}")
+        print(f"The player loses! The value of computer\'s hand is {val_of_comp_hand}")
     elif val_of_comp_hand >21:
-        print(f"The computer loses. The value of computer hand is {val_of_comp_hand}")
+        print(f"The computer loses. The value of computer\'s hand is {val_of_comp_hand}")
     elif val_of_player_hand > val_of_comp_hand:
-        print(f"The player wins, the value of computer hand is {val_of_comp_hand}")
+        print(f"The player wins, the value of computer\'s hand is {val_of_comp_hand}")
     else:
-        print(f"The computer wins, the value of computer hand is {val_of_comp_hand}")
+        print(f"The computer wins, the value of computer\'s hand is {val_of_comp_hand}")
 
 def continue_game_player():
     if players_additional_card() != False:
